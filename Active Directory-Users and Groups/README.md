@@ -29,6 +29,8 @@ For the groups created, the group scope will be global, which will enable users 
 
 ![Users and Computers](Screenshots/12.PNG)
 
+Adding Users to Groups:
+
 After both user and group objects are created, a user can be added to a group by right-clicking the group and selecting properties then select Members > Add > enter username of member to be added > Apply
 
 ![Users and Computers](Screenshots/13.PNG)
