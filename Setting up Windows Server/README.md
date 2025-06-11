@@ -11,3 +11,7 @@ I changed the VM’s network adapter from NAT to bridged mode to allow the machi
 After the Windows Server Installation Process, installed Active Directory Domain Services on Server Manager.
 
 ![Installing Active Directory](screenshots/3.PNG)
+
+After Domain Services were installed, I then set up the deployment configuration in Active Directory.
+
+![Deployment Configuration](screenshots/6.PNG)
