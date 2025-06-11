@@ -12,6 +12,8 @@ After the Windows Server Installation Process, installed Active Directory Domain
 
 ![Installing Active Directory](screenshots/3.PNG)
 
-After Domain Services were installed, I then set up the deployment configuration in Active Directory.
+After Domain Services were installed, then set up the deployment configuration in Active Directory.
+
+
 
 ![Deployment Configuration](screenshots/6.PNG)
