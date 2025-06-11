@@ -17,3 +17,7 @@ After Domain Services were installed, then set up the deployment configuration i
 The option to add a new forest creates a new domain environment for the server. 
 
 ![Deployment Configuration](screenshots/6.PNG)
+
+Once the deployment config is complete, it is important to promote the server to the domain controller.
+
+Clicking the yellow flag will give the option to promote the server. 
