@@ -11,11 +11,11 @@ First in Active Directory, select Tools in the top right corner, then select Act
 
 This pulls up a list of all of the objects in the directory.
 
-![Users and Computers](Screenshots\10.PNG)
+![Users and Computers](Screenshots/10.PNG)
 
 Right-click Users > New > User
 
-![Users and Computers](Screenshots\11.PNG)
+![Users and Computers](Screenshots/11.PNG)
 
 Created several users using this method that will then be assigned to groups.
 
@@ -27,11 +27,11 @@ Prompted to name group and select group scope and type.
 
 For the groups created, the group scope will be global, which will enable users in this group to access shared resources, and the group type will be security, which allows domain management of the access to resources such as file sharing. 
 
-![Users and Computers](Screenshots\12.PNG)
+![Users and Computers](Screenshots/12.PNG)
 
 After both user and group objects are created, a user can be added to a group by right-clicking the group and selecting properties then select Members > Add > enter username of member to be added > Apply
 
-![Users and Computers](Screenshots\13.PNG)
+![Users and Computers](Screenshots/13.PNG)
 
 ### What I learned
 
