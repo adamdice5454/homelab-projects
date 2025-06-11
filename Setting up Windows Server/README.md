@@ -14,6 +14,6 @@ After the Windows Server Installation Process, installed Active Directory Domain
 
 After Domain Services were installed, then set up the deployment configuration in Active Directory.
 
-
+The option to add a new forest creates a new domain environment for the server. 
 
 ![Deployment Configuration](screenshots/6.PNG)
