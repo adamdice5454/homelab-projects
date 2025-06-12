@@ -1,20 +1,3 @@
-### OVERVIEW
-
-In this lab, I will configure a Group Policy Object (Desktop Wallpaper) and apply that policy to a user (testuser) in an Organizational Unit. 
-
-### STEPS 
-
-What is a Group Policy?
-
-Group Policies are settings that can be applied to Organizational Units that determine restrictions placed on the end-user. For example, in an enterprise environment, an admin may not want the end-user to have access to certain features such as the command line or control panel. With Group Policies, the admin can disable end-user access to these features.
-
-First, a new user(usertest) will be placed in a new Organizational Unit (testunit), to test the application of the group policies. It is important that the intended 
-
-A group policy will be created to change the default desktop wallpaper of the users wihin the OU
-
-To create a new group policy:
-
-Open Server Manager
 
 Select Tools
 
@@ -56,7 +39,7 @@ This will open up a new window to edit this specific GP. By default, this policy
 
 To place the desired image in the group policy, the fully qualified path to the image file must be entered. i.e. \\server\shares\uo_wallpaper.png (NOTE: the client PC must have both sharing and security permissions to at least read the file where the image is located)
 
-![desktop wallpaper gpo](screenshots.32.PNG)
+![desktop wallpaper gpo](screenshots/32.PNG)
 
 NOTE: Initially, I set the path to C:\Users\user\Desktop\shares\uo_wallpaper.png. This did not properly load the image on the client PC because while using this path, the client PC searched its own C drive and not the C drive of the server.
 
