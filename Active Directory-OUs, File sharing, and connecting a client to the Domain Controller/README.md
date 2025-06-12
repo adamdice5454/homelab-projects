@@ -24,8 +24,11 @@ While adding users to groups enables file permissions, moving users to organizat
 NOTE: Adding a group to an OU will not affect the users of the group(unless they happen to already be apart of that OU). Adding groups to an OU is mostly for logically structuring the domain. 
 
 Right-click user/group
+
 select Move
+
 Select OU to move user/group to 
+
 ![users/groups in OUs](screenshots/16.PNG)
 
 File Sharing to Groups:
