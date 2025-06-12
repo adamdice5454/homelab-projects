@@ -9,8 +9,11 @@ Creating Organizational Units:
 An organizational unit is like a folder within AD which allows an admin to logically organize the users, groups, and computers in the domain.
 
 Creating an OU is similar to creating a user or group
+
 right-click domain name (home.lab)
+
 New
+
 select Organizational Unit
 
 Three OUs were created: FINANCEUNIT, HRUNIT, and ITUNIT.
@@ -36,20 +39,30 @@ File Sharing to Groups:
 The Folder FINANCESHARE was created to share resources with the users of the finance group. Sharing and security permissions of the folder have to be changed for the users to be able to access this folder.
 
 To change sharing permissions
-*Right-click Folder
-*Select Properties
-*Sharing
-*Advanced Sharing
-*Remove everyone & add group FINANCEDEPT
+
+Right-click Folder
+
+Select Properties
+
+Sharing
+
+Advanced Sharing
+
+Remove everyone & add group FINANCEDEPT
 
 ![sharing permissions](screenshots/19.PNG)
 
 To change security permissions
-*Right-click Folder
-*Select Properties
-*Security
-*Edit
-*add group FINANCEDEPT
+
+Right-click Folder
+
+Select Properties
+
+Security
+
+Edit
+
+add group FINANCEDEPT
 
 ![security permissions](screenshots/24.PNG)
 
@@ -60,30 +73,44 @@ Connecting a client PC to the Server:
 In order for a pc to join and communicate with an AD environment, it's preferred DNS server must be set to the IP address of the domain controller. Without this configuration, the client will have no way of knowing that the domain controller and AD environment exist. 
 
 To set the DNS preferences
-*Control Panel
-*Network and Sharing Center
-*Access Type Connections
-*Properties
-*(TCP/IPv4)
-*Properties
-*Use the following DNS server addresses:(Server_IP)
+
+Control Panel
+
+Network and Sharing Center
+
+Access Type Connections
+
+Properties
+
+(TCP/IPv4)
+
+Properties
+
+Use the following DNS server addresses:(Server_IP)
 
 ![DNS Config](screenshots/25.PNG)
 
 Now with the DNS server properly configured, the client can join the domain offered by the server.
 
 To join Domain Services
-*Settings
-*about
-*Rename this PC (Advanced)
-*Network ID
-*Enter User name, Password, and Domain name
+
+Settings
+
+about
+
+Rename this PC (Advanced)
+
+Network ID
+
+Enter User name, Password, and Domain name
 
 ![joining domain services](screenshots/26.PNG)
 
 Now to access the shared Files on the client pc
-*windows + R
-*\\Server\ShareName
+
+windows + R
+
+\\Server\ShareName
 
 ![accessing shares](screenshots/27.PNG)
 
