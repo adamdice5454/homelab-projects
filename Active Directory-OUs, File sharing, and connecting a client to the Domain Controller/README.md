@@ -1,6 +1,6 @@
 ### OVERVIEW
 
-In this lab, I will create Organization Units (OUs), move users and groups to OUs, enable the server to share files with the client,and connect a client PC to the server.
+In this lab, I will create Organization Units (OUs), move users and groups to OUs, enable the server to share files with the client,and connect a client PC to the domain controller.
 
 ### STEPS
 
