@@ -9,9 +9,9 @@ Creating Organizational Units:
 An organizational unit is like a folder within AD which allows an admin to logically organize the users, groups, and computers in the domain.
 
 Creating an OU is similar to creating a user or group
-*right-click domain name (home.lab)
-*New
-*select Organizational Unit
+right-click domain name (home.lab)
+New
+select Organizational Unit
 
 Three OUs were created: FINANCEUNIT, HRUNIT, and ITUNIT.
 
