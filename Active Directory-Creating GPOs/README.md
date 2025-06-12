@@ -1,3 +1,20 @@
+### OVERVIEW
+
+In this lab, I will configure a Group Policy Object (Desktop Wallpaper) and apply that policy to a user (testuser) in an Organizational Unit. 
+
+### STEPS 
+
+What is a Group Policy?
+
+Group Policies are settings that can be applied to Organizational Units that determine restrictions placed on the end-user. For example, in an enterprise environment, an admin may not want the end-user to have access to certain features such as the command line or control panel. With Group Policies, the admin can disable end-user access to these features.
+
+First, a new user(usertest) will be placed in a new Organizational Unit (testunit), to test the application of the group policies. It is important that the intended recipient of the GPO be a part of an Organizational Unit. GPOs cannot apply directly to users, groups, or computers, and instead are applied to OUs.
+
+A group policy will be created to change the default desktop wallpaper of the users wihin the OU
+
+To create a new group policy:
+
+Open Server Manager
 
 Select Tools
 
