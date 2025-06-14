@@ -36,7 +36,7 @@ Next the time and frequency of recurring backups must be selected. Windows Serve
 
 Now, the wizard prompts us to choose a storage location for the backup. The backup can be placed on a separate hard disk, a separate volume on the disk used for the server, or can be backed up on a shared network folder. The VHD created will allow for a backup on a separate hard disk, which is the Windows recommended option because it allows for the backup to be directly connected to the server without it being on the exact same HD the server is on, which would be an issue if the disk became corrupted. 
 
-After finishing the Backup Schedule Wizard, a new backup is created!
+After finishing the Backup Schedule Wizard, the backup schedule is now created and the first backup will take place at 9 P.M. tonight!
 
 ![Backup Created](screenshots/44.PNG)
 
