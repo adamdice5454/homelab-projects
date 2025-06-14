@@ -12,7 +12,7 @@ Specify the amount of space needed on this VHD, the Windows Server is roughly 12
 
 Now the VHD needs to be mounted to the SATA Controller, do this by selecting the Add Hard Disk option to the right of Controller:SATA and select the newly created VHD. 
 
-![VHD](Screenshots/45.PNG)
+![VHD](screenshots/45.png)
 
 Now that the VHD is properly mounted to the machine, Windows Server can be booted to initialize the VHD  using the Windows Disk Management software. 
 
