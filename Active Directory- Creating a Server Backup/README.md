@@ -42,7 +42,8 @@ After finishing the Backup Schedule Wizard, the backup schedule is now created a
 
 ### WHAT I LEARNED
 
-
+I learned the importance of server backups, the different types of server backups, and the different locations backups can be stored. I learned that an OS on a VM can have a second VHD attached to it. Ultimately, backing up the server was an easy but necessary thing to learn in regards to admin responsiblities. 
 
 ### WHAT'S NEXT
 
+Well, it's hard to say. What really interests me (that I know absolutely nothing about) is Powershell scripting. Scripting seems like a very powerful tool to quickly automate a lot of the things i've done by hand so far, at a much larger scale. I would definitley be interested in learning how to script. The implementation of VHDs opens up the possibility of setting up a RAID configuration, so I may toy around with something like that in the future. I'm wondering if a user not in the server domain could be granted access to my shared folders in the domain (I don't think it could but it would nonetheless make my life easier. Ultimately, I am excited for the opprotunity to expand my knowledge base in computer technology.
