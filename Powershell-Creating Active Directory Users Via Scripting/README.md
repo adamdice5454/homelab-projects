@@ -8,7 +8,7 @@ First, I will create a CSV (Comma Separated Value) file to store all of the user
 
 The CSV file will structure the data as follows: firstname, lastname, username, password. Powershell will then pull this information and create each individual user automatically. 
 
-![CSV FILE](screenshots\50.PNG)
+![CSV FILE](screenshots\50.png)
 
 Next, this powershell script will be created to implant the information from the CSV file into account creation in Active Directory:
 
