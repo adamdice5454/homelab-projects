@@ -47,7 +47,7 @@ With the command line in the correct directory, it is possible to run the script
 
 e.g. .\"Powershell-Bulk AD user creation"
 
-![ERROR!](screenshots\52.PNG)
+![ERROR!](screenshots\52.png)
 
 Recieving this error elicited some research on my part. Powershell, recognizing that the script was not created locally, blocked the execution of the script. This can be fixed with a simple bypass command:
 
@@ -55,6 +55,6 @@ Set-ExecutionPolicy Bypass -Scope Process
 
 Rerunning the script allowed for the creation of users in the Active Directory environment,
 
-![New AD Users](screenshots\54.PNG)
+![New AD Users](screenshots\54.png)
 
-![New AD Users](screenshots\55.PNG)
+![New AD Users](screenshots\55.png)
