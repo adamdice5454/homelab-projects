@@ -12,10 +12,7 @@ The CSV file will structure the data as follows: firstname, lastname, username, 
 
 Next, this powershell script will be created to implant the information from the CSV file into account creation in Active Directory:
 
-# Import Active Directory module (run on server VM)
 Import-Module ActiveDirectory
-
-# Import CSV file
 $Users = Import-Csv -Path "Z:\repo\scripts\users.csv"
 
 foreach ($User in $Users) {
@@ -23,8 +20,6 @@ foreach ($User in $Users) {
     $FirstName = $User.FirstName
     $LastName = $User.LastName
     $Password = $User.Password
-
-    # Create new AD user
     New-ADUser -Name "$FirstName $LastName" `
                -GivenName $FirstName `
                -Surname $LastName `
