@@ -1,6 +1,6 @@
 ### OVERVIEW
 
-In this lab, I will use Powershell scripts to create users and assign them to a unit in the Active Directory environment. The code will be written on Visual Studio Code, and Oracle VirtualBox will be virtualized the Windows Server with AD DS environment. 
+In this lab, I will use Powershell scripting to create users and assign them to a unit in the Active Directory environment. The code will be written on Visual Studio Code, and Oracle VirtualBox will be virtualized the Windows Server with AD DS environment. 
 
 ### STEPS
 
